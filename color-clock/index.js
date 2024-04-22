@@ -1,6 +1,6 @@
 //No need to do any work here.
 //If package.json and the proper modules are installed in the correct location, this should display correctly in the browser.
-import format from "./node_modules/date-fns/esm/format/index.js";
+import format from "date-fns/format";
 
 function displayTime() {
   const clock = document.querySelector("#clock");
